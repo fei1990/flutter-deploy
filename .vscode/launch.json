@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Local File",
+            "showDebuggerOutput": true,
+            "type": "Ruby",
+            "request": "launch",
+            "useBundler": true,
+            "cwd": "${workspaceRoot}",
+            "program": "bin/flutter-cli",
+            "args": [
+                "build",
+                "release",
+                "--project-dir=/Users/wf/sohu/code/sohu_mobile_flutter_host",
+                "--debug"
+            ],
+            "env": {
+                "PATH": "/Users/wf/.rvm/gems/ruby-2.6.3/bin:/Users/wf/.rvm/gems/ruby-2.6.3@global/bin:/Users/wf/.rvm/rubies/ruby-2.6.3/bin:/Users/wf/.gem/bin:/Users/wf/sohu/code/flutterw/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/wf/.rvm/bin",
+                "GEM_HOME": "/Users/wf/.rvm/gems/ruby-2.6.3",
+                "GEM_PATH": "/Users/wf/.rvm/gems/ruby-2.6.3:/Users/wf/.rvm/gems/ruby-2.6.3@global",
+                "RUBY_VERSION": "ruby-2.6.3",
+                "LANG":  "zh_CN.UTF-8"
+               }
+        }
+    ]
+}

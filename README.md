@@ -8,11 +8,11 @@ TODO: Delete this and the text above, and describe your gem
 
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add flutter-deploy
+    $ bundle add flutter-cli
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install flutter-deploy
+    $ gem install flutter-cli
 
 ## Usage
 
@@ -36,4 +36,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 Everyone interacting in the Flutter::Deploy project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/flutter-deploy/blob/main/CODE_OF_CONDUCT.md).
 =======
-# flutter-deploy
+# flutter-cli

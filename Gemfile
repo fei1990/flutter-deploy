@@ -1,12 +1,18 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://gems.ruby-china.com/"
 
 # Specify your gem's dependencies in flutter-deploy.gemspec
 gemspec
 
-gem "rake", "~> 13.0"
-
-gem "rspec", "~> 3.0"
-
-gem "rubocop", "~> 1.21"
+group :development do
+  # gem 'cocoapods'
+  gem "bacon"
+  gem "debase", "0.2.4.1"
+  gem "mocha"
+  gem "mocha-on-bacon"
+  gem "prettybacon"
+  gem "ruby-debug-ide", "0.7.3"
+  gem "json", "2.6.3"
+  gem "ffi", "1.15.5"
+end

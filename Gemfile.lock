@@ -138,6 +138,7 @@ DEPENDENCIES
   mocha-on-bacon
   prettybacon
   ruby-debug-ide (= 0.7.3)
+  tty-box (= 0.7.0)
 
 BUNDLED WITH
    2.4.13

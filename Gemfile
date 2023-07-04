@@ -15,4 +15,5 @@ group :development do
   gem "ruby-debug-ide", "0.7.3"
   gem "json", "2.6.3"
   gem "ffi", "1.15.5"
+  gem "tty-box", "0.7.0"
 end

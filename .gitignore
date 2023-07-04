@@ -35,6 +35,7 @@ build/
 *.bridgesupport
 build-iPhoneOS/
 build-iPhoneSimulator/
+Gemfile.lock
 
 ## Specific to RubyMotion (use of CocoaPods):
 #
